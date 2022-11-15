@@ -1,13 +1,14 @@
 package br.com.fiap.fintech.controller;
 
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+import br.com.fiap.fintech.Dao.DAOFactory;
+import br.com.fiap.fintech.entity.ContaUsuario;
+import br.com.fiap.fintech.entity.Movimentacao;
+import br.com.fiap.fintech.util.Function;
 
+
+@WebServlet("/login")
 /**
  * Servlet implementation class LoginServlet
  */

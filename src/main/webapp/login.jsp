@@ -6,8 +6,8 @@
     <meta charset="ISO-8859-1">
     <title>Login</title>
 
-    <link rel="stylesheet" href="./src/css/login.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./Resources/CSS/login.css">
+    <link rel="stylesheet" href="./Resources/CSS/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +18,7 @@
   <body>
     
         <div class="blue-ball">
+          <img src="./Resources/Images/background/circule.png " alt="background image">
           <h1>FINNANCE</h1>
         </div>    
 
@@ -35,9 +36,9 @@
           </div>
         </form>
     
-        <div class="newHere">
+        <div class="box-alter-page">
           <h3 class="grey">Novo por aqui?</h3>
-          <a class="newAccount" href="newAccount"> Nova Conta </a>
+          <a class="button-alter-page" href="./NovaConta.jsp"> Nova Conta </a>
         </div>
       </main>
 

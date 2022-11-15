@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+/**
+* INICIO DAS TAGS TEMPORARIAS
+**/
+/*
+* FIM DAS TAGS TEMPORARIAS
+**/
+@charset "ISO-8859-1";
+
+/**
+* INICIO DAS TAGS TEMPORARIAS
+**/
+/*
+* FIM DAS TAGS TEMPORARIAS
+**/
+.blue-ball {
+  text-align: start;
+}
+h1 {
+  height: auto;
+  margin-top: 0.8em;
+}
+.white-box {
+	top: 20em;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+.div-esqueceu-submit {
+  justify-content: flex-end;
+}
+.input-submit {
+  padding: 0.3em;
+  background-image: url(../Images/button/buttonCad.png);
+}

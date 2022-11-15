@@ -5,8 +5,8 @@ import java.util.Calendar;
 
 public class Movimentacao {
 	
-	private Integer   cd_usuario;
-	private Integer   cd_conta;
+	  private Integer   cd_usuario;
+	  private Integer   cd_conta;
     private Integer   cd_movimentacao;
     private Categoria categoria;
     private Calendar  dt_movimentacao;

@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+
+/**
+* INICIO DAS TAGS TEMPORARIAS
+**/
+/*
+* FIM DAS TAGS TEMPORARIAS
+**/
+.blue-ball {
+	align-items: center;
+}
+.a-form {
+  padding: 0.3em;
+}
+.div-esqueceu-submit {
+  justify-content: space-between;
+}
+.input-submit {
+  padding: 0.5em;
+  background-image: url(../Images/button/button.png);
+}
+/** GOOGLE BTN **/
+/**FIM GOOGLE BTN**/
+
+.box-alter-page {
+  margin-top: 10em;
+}
