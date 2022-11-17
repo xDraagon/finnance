@@ -1,64 +1,99 @@
-@charset "ISO-8859-1";
+:root{
+    --accent: white;
+    --bg: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 *{
-    font-family: 'Glegoo', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background-color: #e6ecec ;
+    font-family: 'Glegoo', serif;
+    background-color: grey;
 }
 
-#brand
-{
-    text-align: center;
+.card-holder{
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-
-#logo
-{
-    width: 50px;
+.card{
+  width: 22rem;
+  background-color: var(--accent);
+  color: black;
+  margin: 2rem auto;
+  box-shadow: 0 0 2rem rgba(0,0,0,0.1);
 }
 
-
-
-#centraliza
-{
-    width: 350px;
-    margin: auto;
-    height: 40px;
+.card__name{
+  font-family: 'Glory';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 28px;
+text-align: center;
 }
 
-
-#centraliza2
-{
-   
-    padding-left: 80px;
+.card__img{
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
 }
 
-
-
-
-
-.card-title{
-    text-align: center;
+.card-contents{
+  padding: 1rem;
 }
 
-#historico{
-    border-radius: 20px;
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    border-radius: 32px;
-    border: 0;
-    cursor: pointer;
-    font-size: 80%;
-    font-weight: 500;
-    color: #fff;
-    margin-bottom: 16px 0;
-    background: linear-gradient(to right, #4D84B6, #4EEAE0);
+h1{
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
 
-    width: 164px;
-   
+p{
+  margin-bottom: 1rem;
+  color: #000000;
+  font-family: 'Glory';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
 
+.card__read-more{
+  display: block;
+  opacity: 0;
+  height: 0;
+  transition: all 0.5s;
+}
+
+.card__read-more--open{
+  display: inline-block;
+  opacity: 1;
+  height: 3rem;
+}
+
+.read-more-btn{
+  display: inline-block;
+  color: black;
+  background-color: white;
+  padding: 0.6rem 1.5rem;
+  font-size: 1em;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.read-more-btn:hover{
+  background-color: white;
+  box-shadow: 0 0 2rem rgba(0,0,0,0.1);
+  transform: translateY(-3px);
 }
 
 #add{
@@ -80,62 +115,38 @@ body{
     padding-left: 50px;
 }
 
-.tabela
+#historico{
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+    background: linear-gradient(to right, #4D84B6, #4EEAE0);
+
+    width: 164px;
+   
+
+}
+
+
+#centraliza2
 {
-    display: grid;
-    
-
+   
+    padding-left: 85px;
 }
 
-.i1{
-    
+.vlr{
+  font-family: 'Glegoo';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 23px;
+color: rgba(0, 0, 0, 0.61);
+
+text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
-.i2{
-    
-    
-}
-
-.card{
-    border-radius: 50px;
-}
-
-/*
-.i3{
-    margin-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.i4{
-    margin-top: 15px;
-    padding-left: 140px;
-  
-}
-
-
-.i5{
-    margin-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.i6{
-    margin-top: 15px;
-    padding-left: 140px;
-    justify-content: end;
-}
-
-*/
-
-
-
-.i1{
-    justify-content: space-around;  
-}
-
-.i2{
-    justify-content: space-around;  
-}
-
-
